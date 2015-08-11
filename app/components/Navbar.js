@@ -3,7 +3,7 @@ import {Link} from 'react-router';
 import NavbarStore from '../stores/NavbarStore';
 import NavbarActions from '../actions/NavbarActions';
 
-class NavBar extends React.Component {
+class Navbar extends React.Component {
   constructor(props) {
     super(props);
     this.state = NavbarStore.getState();

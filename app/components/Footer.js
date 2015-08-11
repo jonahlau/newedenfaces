@@ -24,6 +24,7 @@ class Footer extends React.Component {
   }
 
   render() {
+    console.log(this.state);
     let leaderboardCharacters = this.state.characters.map((character) => {
       return (
         <li key={character.characterId}>
